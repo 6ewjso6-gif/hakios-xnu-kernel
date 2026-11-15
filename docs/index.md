@@ -17,6 +17,7 @@ Its SDM845 CPU clocks remain at the boot-loader setting, and display support is 
 | [Getting started](getting-started/index.md) | three ways in, and what your machine needs |
 | [QEMU](getting-started/qemu.md) | the open kernel in a few commands, or the Darwin user space you lay out yourself |
 | [On the phone](getting-started/phone.md) | POCO X5 Pro RAM sessions; [MIX 2S build and storage updates](../devices/polaris/STORAGE.md) |
+| [最短刷入路径](install-shortest.zh.md) | 中文：小米 MIX 2S 从零到刷入的最短步骤、前置条件、出错对照 |
 | [Windows](windows.md) | the same from a Windows PC: what runs in WSL 2, what in Git Bash; a measured Metal run |
 | [Installing beside Android](dual-boot.md) | the POCO X5 Pro U-Boot/A-B setup and menu ([in Russian](ru/dual-boot.md)) |
 | [Building from source](getting-started/building.md) | when you change something |
@@ -136,7 +137,7 @@ the rest as the file headers say. None of this is legal advice.
 | [`hakios-metal/`](https://github.com/oosexgang/hakios-xnu-kernel/tree/main/hakios-metal) | Metal's command model on the Adreno, through the kernel's GPU driver |
 | [hakios-sm7325](https://github.com/oosexgang/hakios-sm7325) | POCO X5 Pro 5G: its defconfig, status, UEFI platform, firmware script, and its SoC's layer (`soc/`: the Qualcomm SC7280 family) |
 | [hakios-mt6768](https://github.com/oosexgang/hakios-mt6768) | Infinix Hot 20 (MediaTek Helio G85): an experimental port with its own loader; not in `devices/manifest.conf` |
-| [uefi/](uefi/README.md) | the firmware that starts the loader: mu_aloha_platforms with HakiOS's boot path, logo and name, and HakiOS's U-Boot (`u-boot/`) |
+| [uefi/](../uefi/README.md) | the firmware that starts the loader: mu_aloha_platforms with HakiOS's boot path, logo and name, and HakiOS's U-Boot (`u-boot/`) |
 | [hackios-web](https://github.com/oosexgang/hackios-web) | the website, which carries a copy of these pages |
 | [hackios-xnu-userland](https://github.com/oosexgang/hackios-xnu-userland) | old: a pointer. User space is `userland/` in the common repository |
 
